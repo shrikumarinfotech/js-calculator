@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="./includes/stylesheets/calculator-v1.0.0.css">
+</head>
+<body>
+    <div id="calculator-main" class="calculator-main">
+        <div class="calc-display">
+            <span id="display-action"></span>
+            <textarea id="display-panel" name="display-panel" maxlength="12" rows="1" cols="12" placeholder="0" readonly>0</textarea>
+        </div>
+        <div class="calc-panel">
+            <div class="calc-row">
+                <span id="btn-val-7" class="key key-num">7</span>
+                <span id="btn-val-8" class="key key-num">8</span>
+                <span id="btn-val-9" class="key key-num">9</span>
+                <span id="btn-val-x" class="key key-action">x</span>
+                <span id="btn-val-/" class="key key-action">/</span>
+            </div>
+            <div class="calc-row">
+                <span id="btn-val-4" class="key key-num">4</span>
+                <span id="btn-val-5" class="key key-num">5</span>
+                <span id="btn-val-6" class="key key-num">6</span>
+                <span id="btn-val-substract" class="key key-action">-</span>
+                <span id="btn-val-percent" class="key key-action">%</span>
+            </div>
+            <div class="calc-row">
+                <span id="btn-val-1" class="key key-num">1</span>
+                <span id="btn-val-2" class="key key-num">2</span>
+                <span id="btn-val-3" class="key key-num">3</span>
+                <span id="btn-val-add" class="key key-action">+</span>
+                <span id="btn-val-sqrt" class="key key-action">√</span>
+            </div>
+            <div class="calc-row">
+                <span id="btn-val-0" class="key key-num">0</span>
+                <span id="btn-val-00" class="key key-num">00</span>
+                <span id="btn-val-dot" class="key key-dot">.</span>
+                <span id="btn-val-equal" class="key key-result">=</span>
+                <span id="btn-val-ac" class="key">AC</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./calculator-html-prototype-v1.0.0.js"></script>
+</body>
+</html>
